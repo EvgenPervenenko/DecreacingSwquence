@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 				break;
 		}
 		
-		if( counter > 0 || count <= 2 )
+		if( counter >= 0 || count <= 2 )
 			std::cout << "[error]" << std::endl;
 		else
 		{
