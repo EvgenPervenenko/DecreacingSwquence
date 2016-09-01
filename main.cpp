@@ -84,6 +84,7 @@ int main(int argc, char *argv[])
 				break;
 		}
 		
+		//10 test complete counter > 0 not work
 		if( counter >= 0 || count <= 2 )
 			std::cout << "[error]" << std::endl;
 		else
